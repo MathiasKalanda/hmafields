@@ -1,5 +1,4 @@
-// src/components/GallerySection.jsx
-
+import { Link } from "@tanstack/react-router";
 import React from "react";
 
 const galleryImages = [
@@ -97,8 +96,8 @@ export default function GallerySection() {
 
         {/* CTA Button */}
         <div className="text-center mt-12">
-          <a
-            href="/gallery"
+          <Link
+            to="/gallery"
             className="inline-flex items-center px-8 py-4 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition-colors shadow-md hover:shadow-lg"
           >
             View Full Gallery
@@ -115,7 +114,7 @@ export default function GallerySection() {
                 d="M9 5l7 7-7 7"
               />
             </svg>
-          </a>
+          </Link>
         </div>
       </div>
     </section>

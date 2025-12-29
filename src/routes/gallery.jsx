@@ -1,14 +1,14 @@
 import { createFileRoute } from "@tanstack/react-router";
-import ContactPage from "../components/ContactPage";
+import GalleryPage from "../components/GalleryView";
 
-export const Route = createFileRoute("/contact")({
+export const Route = createFileRoute("/gallery")({
   component: RouteComponent,
 });
 
 function RouteComponent() {
   return (
     <div className="md:mt-20">
-      <ContactPage />
+      <GalleryPage />
     </div>
   );
 }
