@@ -5,11 +5,11 @@ export default function Profile() {
     <section
       className="relative min-h-screen bg-cover bg-center bg-no-repeat flex items-center justify-center py-20"
       style={{
-        backgroundImage: `url("https://media.istockphoto.com/id/902746420/photo/modern-office-building.jpg?s=612x612&w=0&k=20&c=aTI-kmdh2p_JwXFI3r0D65EZdnmFF4LYNLrvMF2anJw=")`,
+        backgroundImage: `url("/images/supplies.jpg")`,
       }}
     >
       {/* Dark overlay for readability */}
-      <div className="absolute inset-0 bg-black bg-opacity-60" />
+      {/* <div className="absolute inset-0" /> */}
 
       <div className="relative z-10 max-w-6xl mx-auto px-6 text-white">
         <div className="grid md:grid-cols-2 gap-12 items-center">
