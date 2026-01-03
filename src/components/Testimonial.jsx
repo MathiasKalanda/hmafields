@@ -137,7 +137,7 @@ export default function TestimonialsSection() {
             className="absolute left-4 md:left-[-60px] top-1/2 -translate-y-1/2 bg-white hover:bg-gray-100 p-3 md:p-4 rounded-full shadow-lg transition-all z-10"
             aria-label="Previous testimonial"
           >
-            <FiChevronLeft className="w-7 h-7 md:w-8 md:h-8 text-blue-600" />
+            <FiChevronLeft className="w-7 h-7 md:w-8 md:h-8 text-[#ff1493]" />
           </button>
 
           <button
@@ -145,7 +145,7 @@ export default function TestimonialsSection() {
             className="absolute right-4 md:right-[-60px] top-1/2 -translate-y-1/2 bg-white hover:bg-gray-100 p-3 md:p-4 rounded-full shadow-lg transition-all z-10"
             aria-label="Next testimonial"
           >
-            <FiChevronRight className="w-7 h-7 md:w-8 md:h-8 text-blue-600" />
+            <FiChevronRight className="w-7 h-7 md:w-8 md:h-8 text-[#ff1493]" />
           </button>
 
           {/* Dots Indicator */}
@@ -156,8 +156,8 @@ export default function TestimonialsSection() {
                 onClick={() => setCurrentIndex(index)}
                 className={`w-3 h-3 rounded-full transition-all duration-300 ${
                   index === currentIndex
-                    ? "bg-blue-600 w-10"
-                    : "bg-gray-300 hover:bg-gray-500"
+                    ? "bg-[#ff1493] w-10"
+                    : "bg-gray-300 hover:bg-[#ff4db8]"
                 }`}
                 aria-label={`Go to testimonial ${index + 1}`}
               />

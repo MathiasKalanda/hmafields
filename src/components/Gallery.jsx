@@ -97,7 +97,7 @@ export default function GallerySection() {
         <div className="text-center mt-12">
           <Link
             to="/gallery"
-            className="inline-flex items-center px-8 py-4 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition-colors shadow-md hover:shadow-lg"
+            className="inline-flex items-center px-8 py-4 bg-[#ff1493] text-white font-semibold rounded-lg hover:bg-[#ff4db8] transition-colors shadow-md hover:shadow-lg"
           >
             View Full Gallery
             <svg

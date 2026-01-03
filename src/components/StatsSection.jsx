@@ -64,14 +64,14 @@ export default function StatsSection() {
   }, []);
 
   return (
-    <section className="py-20 bg-gradient-to-r from-blue-600 to-blue-800 text-white">
+    <section className="py-20 bg-gray-50 text-gray-700">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
             Our Impact in Numbers
           </h2>
-          <p className="text-xl text-blue-100 max-w-3xl mx-auto">
+          <p className="text-xl text-gray-500 max-w-3xl mx-auto">
             Delivering excellence across construction, events, marketing, and
             real estate since day one.
           </p>
@@ -82,7 +82,7 @@ export default function StatsSection() {
           {stats.map((stat, index) => (
             <div key={index} className="text-center group">
               <div className="mb-6 flex justify-center">
-                <div className="p-6 bg-white/10 rounded-2xl group-hover:bg-white/20 transition-colors duration-300">
+                <div className="p-6 bg-[#f5e4ec] rounded-2xl group-hover:bg-[#f1eaee] transition-colors duration-300">
                   {stat.icon}
                 </div>
               </div>
@@ -93,7 +93,7 @@ export default function StatsSection() {
                 {stat.suffix && <span>{stat.suffix}</span>}
               </div>
 
-              <p className="text-xl text-blue-100 font-medium">{stat.label}</p>
+              <p className="text-xl font-medium">{stat.label}</p>
             </div>
           ))}
         </div>
