@@ -5,7 +5,6 @@ const galleryImages = [
   {
     src: "https://www.porcelanosa.com/trendbook/app/uploads/2018/09/Porcelanosa-Grupo-Projects-Residencial-Lagos-Nigeria-01.jpg",
     alt: "Elegant luxury villa exterior",
-    alt: "Luxury residential development in Ikoyi",
     category: "Construction & Civil Works",
     size: "large", // spans more space
   },

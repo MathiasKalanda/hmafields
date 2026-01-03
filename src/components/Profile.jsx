@@ -5,7 +5,7 @@ export default function Profile() {
     <section
       className="relative min-h-screen bg-cover bg-center bg-no-repeat flex items-center justify-center py-20"
       style={{
-        backgroundImage: `url("/images/supplies.jpg")`,
+        backgroundImage: `url("/images/profilebg.jpg")`,
       }}
     >
       {/* Dark overlay for readability */}
@@ -40,7 +40,7 @@ export default function Profile() {
             <div className="pt-6">
               <a
                 href="/quotation"
-                className="inline-block px-10 py-4 bg-blue-600 text-white font-semibold text-lg rounded-md hover:bg-blue-700 transition shadow-xl"
+                className="inline-block px-10 py-4 bg-[#FF1493] text-white font-semibold text-lg rounded-md hover:bg-[#FF4DB8] transition shadow-xl"
               >
                 Get a Quote Today
               </a>

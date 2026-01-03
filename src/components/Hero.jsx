@@ -6,31 +6,31 @@ const slides = [
     title: "Construction And Civil Works",
     description:
       "Building the future with precision, quality, and innovation in every project.",
-    img: "/images/construction.webp", // Root path – no imports needed!
+    img: "/images/herocivil.jpg",
   },
   {
-    title: "Property & Real Estate Management",
+    title: "Property & Real Estates Management",
     description:
       "Professional management and development of premium properties for maximum value.",
-    img: "/images/realestate.jpg",
+    img: "/images/realestate2.jpg",
   },
   {
     title: "Marketing, Branding & Promotion",
     description:
       "Creative strategies that elevate your brand and drive real business growth.",
-    img: "/images/marketing.jpg",
+    img: "/images/branding10.jpg",
   },
   {
     title: "Events Management & Planning",
     description:
       "Flawless planning and execution for unforgettable corporate and private events.",
-    img: "/images/events.jpg",
+    img: "/images/events1.jpg",
   },
   {
     title: "General Supplies",
     description:
       "Timely delivery of quality materials and logistics for all your project needs.",
-    img: "/images/supplies.jpg",
+    img: "/images/supplieshero.jpg",
   },
 ];
 
@@ -70,7 +70,7 @@ export default function Hero() {
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.2, duration: 0.8 }}
-              className="text-4xl md:text-6xl  mb-6 font-arimo"
+              className="text-4xl md:text-6xl  mb-6 font-arimo text-[#FF1493] uppercase font-bold"
             >
               {currentSlide.title}
             </motion.h1>
@@ -78,7 +78,7 @@ export default function Hero() {
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.4, duration: 0.8 }}
-              className="text-lg md:text-2xl mb-10 max-w-2xl mx-auto font-arimo"
+              className="text-lg md:text-2xl mb-10 max-w-2xl mx-auto font-arimo text-[#E0E0E0] font-medium capitalize"
             >
               {currentSlide.description}
             </motion.p>
@@ -90,13 +90,13 @@ export default function Hero() {
             >
               <a
                 href="/services"
-                className="font-dm-sans px-8 py-4 bg-white text-gray-900 font-semibold rounded-md hover:bg-gray-200 transition shadow-lg"
+                className="font-dm-sans px-8 py-4 bg-white text-gray-900 font-semibold rounded-md hover:bg-gray-200 transition shadow-lg "
               >
                 Learn More
               </a>
               <a
                 href="/quotation"
-                className="px-8 py-4 bg-blue-600 text-white font-semibold rounded-md hover:bg-blue-700 transition shadow-lg"
+                className="px-8 py-4 bg-[#FF1493] text-white font-semibold rounded-md hover:bg-[#FF4DB8] transition shadow-lg"
               >
                 Get Quotation
               </a>

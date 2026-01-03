@@ -24,9 +24,9 @@ export default function Navbar() {
           <div className="flex items-center">
             <Link
               to="/"
-              className="text-2xl font-nunito font-bold text-gray-800"
+              className="text-2xl font-nunito font-bold text-[#FF1493] uppercase hover:text-[#FF4DB8] transition"
             >
-              MySite
+              HMA Fields
             </Link>
           </div>
 
@@ -34,25 +34,25 @@ export default function Navbar() {
           <div className="hidden md:flex items-center space-x-8">
             <Link
               to="/"
-              className="text-gray-700 hover:text-blue-600 transition"
+              className="text-gray-700 hover:text-[#FF4DB8] transition"
             >
               Home
             </Link>
             <Link
               to="/about"
-              className="text-gray-700 hover:text-blue-600 transition"
+              className="text-gray-700 hover:text-[#FF4DB8] transition"
             >
               About
             </Link>
             <Link
               to="/services"
-              className="text-gray-700 hover:text-blue-600 transition"
+              className="text-gray-700 hover:text-[#FF4DB8] transition"
             >
               Services
             </Link>
             <Link
               to="/contact"
-              className="text-gray-700 hover:text-blue-600 transition"
+              className="text-gray-700 hover:text-[#FF4DB8] transition"
             >
               Contact
             </Link>
@@ -62,7 +62,7 @@ export default function Navbar() {
           <div className="md:hidden flex items-center">
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="text-gray-700 hover:text-blue-600 focus:outline-none"
+              className="text-gray-700 hover:text-[#FF4DB8] focus:outline-none"
             >
               {isOpen ? (
                 <HiX className="h-6 w-6" />
